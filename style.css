@@ -1,0 +1,50 @@
+
+a:link {
+    color:blue;
+}
+a:visited{
+    color: black;
+}
+.item {
+    position: relative;
+}
+.item p{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+ opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.3
+}
+.menu{
+    margin-right: 30px;
+    padding-right: 30px;
+} 
+.menu a{
+
+    margin-left:30px;
+}
+.header{
+    background-color: #f97760;
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+   h1,h2{
+       text-align: center;
+   }
+* body{
+    background-image: url("bg.jpeg");
+    background-size: 1500px 750px;
+    background-repeat: no-repeat; 
+}
